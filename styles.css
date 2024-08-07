@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    
+    background-color: darkgray;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.container {
+    max-width: 800px; /*para darle un maximo de crecimiento en visualizacion*/
+    width: 100% ;
+    margin: 0 auto; /*el 0 es margen de arriba a abajo y auto es para costados */
+    margin-top: 50px;
+    height: 200px;
+}
+
+.section{
+    background-color: #fff;
+    display: flex;
+    border-radius: 7px;
+    padding: 50px;
+    margin: 2px;
+    
+}
+
+.subsection {
+
+    width: 50% 
+    
+}
+
+.perfil {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.circle {
+    height: 15px;
+    width: 15px;
+    background-color: chartreuse;
+    border-radius: 30px;
+
+}
+
+.status {
+    display: flex;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 40px;
+
+}
+
+.p-status{
+ margin: 0 8px;
+}
+
+.presentacion{
+    font-size: x-large;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.botones{
+    padding: 20px;
+}
+.trab{
+    border-radius: 25px;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+.cv{
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.trab:hover{
+    background-color: #fff;
+    color:black;
+    cursor: pointer;
+}
+
+.cv:hover{
+    
+    background-color: black;
+    color:#fff;
+    cursor: pointer;
+}
+
+.logo {
+    border-radius: 100%;
+    background-color: black;
+    padding: 1px;
+    width: 75px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.secciones {
+    width: 290px;
+    font-size:large;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+ .secciones button {
+    border-color:rgba(248, 243, 243, 0.336)  ;
+    border-radius: 10px
+ }
+
+ .field {
+    margin-bottom: 10px;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+  }
+  .accordion {
+    width: 100%;
+  }
+  .separacion{
+    display: flex;
+    
+  }
+/*prioridad al id, luego a la clase y luego al elemento*/
