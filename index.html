@@ -11,24 +11,38 @@
 
 </head>
 
-<body>
+<body >
     <div class="container">
         <div class="section">
             <div class="subsection">
-                <h1> Diana Leslie Nuñez Rivera</h1>
+                <h1> Diana Leslie <br>Nuñez Rivera</h1>
                 <p> Web Developer</p>
                 <div class="status">
-                    <p class="p-status"> Avaliable Developer</p>
-                    <div class="circle"></div>
+                    <p class="p-status"> Avaliable Developer </p>
+                    <div class="circle">
+                    </div>
                 </div>
-                <img class="perfil" src="/imagenes/perfil.jpg" alt="diana">
+                    
+                <img class="perfil" src="imagenes/perfil.jpeg" alt="diana">
             </div>
             <div class="subsection">
-                <p class="presentacion">!Hola! Soy Diana , desarrolladora web junior que se basa en la innovacion,
-                    creatividad y precision</p>
+                <p>
+                    <h2>!Hola! Soy Diana , desarrolladora web. </h2>
+                    Técnico-Profesional con mucha iniciativa, amplia
+                    disposición de colaboración y trabajo en equipo.
+                    Con foco en creatividad e innovación y adaptación, un
+                    amplio sentido de liderazgo y cumplimiento de
+                    objetivos.
+                    Siempre en búsqueda de actualizaciones y
+                    aprendizaje continuo.
+                </p>
                 <div class="botones">
-                    <button class="trab">TRABAJO</button>
+                
+                  
+                    <a href="imagenes/CV .pdf" download="CV Diana Español">
+                    
                     <button class="cv">CV DESCARGA</button>
+                </a>
                 </div>
             </div>
         </div>
@@ -50,34 +64,89 @@
             <div class="subsection">
                 <div class="secciones">
                     <h3>Educación</h3>
-                    <p>Cecyt 13 "Riardo Flores Magón"</p>
-                    <button>documento</button>
+                    <p> <b>Junior Archievement</b>
+                      <br>Desarrollador web
+                    </p>
+                    <p><b>Cecyt 13 "Riardo Flores Magón"</b>
+                    Técnico en informática
+                </p>
                 </div>
+                
+
                 <div class="secciones">
                     <h3>Certificaciones</h3>
-                    <p>Técnico en Informática</p>
-                    <p>Certificaciones de desarrollo web</p>
+                
+                   <!-- apertuta de modal -->
 
-                    <button>Cédula</button>
-                    <button>Certificados</button>
+                    <button id="abrirModal">Cédula</button>
+                  
+                    <!-- Ventana modal, por defecto no visiblel -->
+                    <div id="ventanaModal" class="modal" >
+                      <div class="contenido-modal">
+                          <span class="cerrar">&times;</span>
+                          
+                        <p class="cedula">  <img src="imagenes/Cedula.png" alt="cedula">
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <button>
+                    <a target="_blank" class="fcc-btn" href="https://drive.google.com/drive/u/3/folders/19qNylS8YpCOr1HmQHVCnGzDRnWjVTBP8">Certificaciones</a>
+                    </button>
+                </div>
+
+                <div class="secciones">
+                    <h3>Pasatiempos</h3>
+                    <p>Diseño creativo de sublimación</p>
+                    <p>Actualización de herramientas</p>
+                    <p>Presentaciones de danza </p>
+                    
+                   
+                 
+                    
                 </div>
             </div>
+
+           
+    
+
             <div class="subsection">
                 <div class="secciones">
                     <h3>Experiencia</h3>
-                    <p>Ultimo empleo Farmacias San Pablo</p>
-                    <button>Constancias</button>
+                    <b>Creador de paginas web</b>
+                   <p>
+                    Freelance
+                    <br>2024 a la actualidad
+                   </p>
+                  <b>Desarrollador de Software</b>
+                   <p>  
+                    Soluciones SPRiD Freelance
+                    <br>2021 a la actualidad
+                   </p>
+
+                   <b>Lider en Formación</b>
+                    <p>
+                        Farmacias San Pablo
+                        <br>2018 - 2021</p>
+
                 </div>
                 <div class="secciones">
                     <h3>Trabajos web</h3>
-                    <p>Páginas web</p>
-                    <p>Juegos</p>
-                    <button>Vinculos de pagina</button>
-                    <button>Juego</button>
+                   
+                    <button>
+                        <a target="_blank" class="fcc-btn" href="https://github.com/DianaLeslieNu">GitHub</a>
+                    </button>
+                    
+                    <button>
+                        <a target="_blank" class="fcc-btn" href="">Blog</a>
+                    </button>
+                    
+                    
                 </div>
             </div>
 
         </div>
+
         <div class="section">
 
             <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -90,7 +159,21 @@
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Descripcion <code>herramientas</code> </div>
+                        <div class="accordion-body">
+                            <p>Enfocada en la visualizacion del cliente para satisfacer las nececidades hacia el público que maneja.
+                               <br>Obteniendo de esta forma una atraccion desde el esquema hasta la ocupacion exacta de la gama de colores, acciones y secciones que se van a manejar.
+                            </p>
+                            <code>Herramientas con las que trabajo.</code> 
+                            <code >
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>Bootstrap</li>
+                                    <li>Reac</li>
+                                  </ul>
+                            </code>
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -102,7 +185,22 @@
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Descripcion <code>herramientas</code></div>
+                        <div class="accordion-body">
+                            <p>Enfocada en la funcionalidad de las paginas Web o tiendas en linea.
+                               <br> Supervisando cada detalle que pueda producir un error. 
+                            </p>
+                            <code>Herramientas con las que trabajo.</code> 
+                            <code >
+                                <ul>
+                                    <li>C#</li>
+                                    <li>Java</li>
+                                    <li>C++</li>
+                                    <li>Git</li>
+                                    <li>Spring</li>
+                                    <li>Documentación</li>
+                                </ul>
+                            </code>
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -115,11 +213,17 @@
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                            body. Nothing more exciting happening here in terms of content, but just filling up the
-                            space to make it look, at least at first glance, a bit more representative of how this would
-                            look in a real-world application.</div>
+                        <div class="accordion-body">
+                            <p>Debido al enfoque de mi trabajo las bases de datos suelen ser muy importantes para el control de productos, usuarios o despliegue de ventas.
+                             </p>
+                             <code>Herramientas con las que trabajo.</code> 
+                             <code >
+                                 <ul>
+                                     <li>SQL</li>
+                                     <li>Mongo</li>
+                                 </ul>
+                             </code>
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -132,11 +236,12 @@
                     </h2>
                     <div id="flush-collapseFour" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                            body. Nothing more exciting happening here in terms of content, but just filling up the
-                            space to make it look, at least at first glance, a bit more representative of how this would
-                            look in a real-world application.</div>
+                        <div class="accordion-body">
+                            <p> Cuento con la capacidad de adaptacion, un amplio sentido de liderazgo y resolución de problemas, me gusta trabajar en equipo y llevar un orden del avance,
+                                sin embargo no tengo tema en trabajar sola debido a que busco siempre la superación y los retos.
+                                <br>Sin duda actualizarme y buscar mejoras es algo que me mantiene al margen.
+                             </p>
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -144,46 +249,66 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseFive" aria-expanded="false"
                             aria-controls="flush-collapseFive">
-                            Metodologias
+                            Metodologías
                         </button>
                     </h2>
                     <div id="flush-collapseFive" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                            body. Nothing more exciting happening here in terms of content, but just filling up the
-                            space to make it look, at least at first glance, a bit more representative of how this would
-                            look in a real-world application.</div>
+                        <div class="accordion-body">
+                            <p> 
+                               Valoro mucho trabajar con las metodologías <b>Kanban</b> y <b>Scrum</b> debido a que considero que una revision y la division de tareas son lo que llevan un proyecto al exito.
+                         </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Adicionales
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>Enfocada en la visualizacion del cliente para satisfacer las nececidades hacia el público que maneja.
+                               <br>Obteniendo de esta forma una atraccion desde el esquema hasta la ocupacion exacta de la gama de colores, acciones y secciones que se van a manejar.
+                            </p>
+                            <code>Herramientas con las que trabajo.</code> 
+                            <code >
+                                <ul>
+                                    <li>Canva</li>
+                                    <li>Corel</li>
+                                    <li>Microsoft</li>
+                                    <li>Photoshop</li>
+                                  </ul>
+                            </code>
+                        </div>
                     </div>
                 </div>
+               
             </div>
+            
         </div>
+       
         <div class="section">
-            <h4>CONTACTO</h4>
-        </div>
-        <div class="section">
-
+           
             <form id="form">
-                <div class="separacion">
-                <div class="field">
-                    <label for="from_name">Nombre</label>
-                    <input type="text" name="from_name" id="from_name">
+                <div>
+                    <h4>CONTACTO</h4>
                 </div>
-                <div class="field">
-                    <label for="email_id">correo</label>
-                    <input type="text" name="email_id" id="email_id">
+                <div class="fila-1">
+                    <input type="text" name="from_name" id="from_name" placeholder="Nombre">
+                    <input type="text" name="email_id" id="email_id" placeholder="E-mail">
                 </div>
-            </div>
-                <div class="field">
-                    <label for="message">mensaje</label>
-                    <input type="text" name="message" id="message">
+                <div class="fila-2">
+                    <input type="text" name="message" id="message" placeholder="Mensaje">
                 </div>
-
                 <input type="submit" id="button" value="Send Email">
             </form>
-
-
         </div>
+    </div>
         <div class="section">
 
         </div>
