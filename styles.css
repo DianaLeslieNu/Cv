@@ -8,36 +8,44 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-  
+    justify-content: center;
 
 }
 .container {
-    max-width: 800px; /*para darle un maximo de crecimiento en visualizacion*/
+   
+    max-width: 850px; /*para darle un maximo de crecimiento en visualizacion*/
     width: 100% ;
     margin: 0 auto; /*el 0 es margen de arriba a abajo y auto es para costados */
     margin-top: 50px;
     height: 200px;
+    
 }
 
 .section{
     background-color: #fff;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 7px;
     padding: 50px;
-    margin: 4px;
+    margin: 20px;
+    text-align: center;
+    
    
 }
 
 .subsection {
-
-    width: 100% 
-    
+  text-align: center;
+flex: 1 1 300px;
+padding: 20px;
+box-sizing: border-box;
+margin: 10px;
 }
 
 .perfil {
-    max-width: 100%;
-    max-height: 200px;
-    border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
     margin-top: 15px;
 }
 
@@ -51,6 +59,7 @@ body{
 
 .status {
     display: flex;
+    align-items: center;
     border: 1px solid gray;
     padding: 8px;
     border-radius: 20px;
@@ -59,7 +68,8 @@ body{
 }
 
 .p-status{
- margin: 0 10px;
+  margin-right: 10px;
+
 }
 
 .presentacion{
@@ -69,11 +79,16 @@ body{
 }
 
 .botones{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
     padding: 20px;
 }
 
 
 .cv{
+  padding: 10px 20px;
+  font-size: 1em;
     border-radius: 25px;
     padding: 20px;
 }
@@ -91,9 +106,10 @@ body{
     border-radius: 100%;
     background-color: black;
     padding: 1px;
-    width: 75px;
-    height: 70px;
+    width: 100px;
+  height: auto;
     margin-right: 10px;
+
 }
 
 .secciones {
@@ -261,3 +277,43 @@ p img {
   height: 100%; /* Altura completa */
 }
 
+
+/*responsive de página*/
+.flexeo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .logo {
+    width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 60px;
+  }
+}
+
+/* responsive del perfil */
+@media (max-width: 768px) {
+  .subsection {
+    flex: 1 1 100%;
+    padding: 10px;
+  }
+
+  .cv {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .cv {
+    padding: 6px 12px;
+    font-size: 0.8em;
+  }
+}
